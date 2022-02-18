@@ -1,23 +1,28 @@
-# EFI Opencore 0.7.6 for Dell Optiplex 3060 MFF
+# 前言
+本EFI根据 EFI Opencore 0.7.6 for Dell Optiplex 3060 MFF而来。
+由于基本没有Dell Optiplex 3050升级到 Mac Os Monterey 12.1 的成功案例，也没有具体的配置，故寻找了类似3050的配置。
+注意：请自行修改三码，机型选择 Macmini 18，1
+# 最后附上大佬原本的介绍。
+## EFI Opencore 0.7.6 for Dell Optiplex 3060 MFF
 I created an EFI based on the Hackintoshlifeit EFI for Dell 3060MFF, with opencore update and some optimisations.
 
-# For Hackintosh users with Dell OptiPlex 3060 MFF.
+## For Hackintosh users with Dell OptiPlex 3060 MFF.
 - You must be on 1.15 Dell 3060 Bios.
 - Almost everything is working (even DP/HDMI output) but not DRM (TV App, Netflix on Safari) and microphone line in.
 - You must adapt your Platform info (Serial Number, MLB, ROM, UUID) if you want to use Facetime/Imessage.
 
-# Operating system
+## Operating system
 
 | Tested On | 
 | ------------- |
 | Mac Os Monterey 12.1
 
-# Bootloader
+## Bootloader
 | BootLoader | 
 | ------------- |
 | Opencore 0.7.6 |
 
-# WIFI/BT
+## WIFI/BT
 Just buy a BCM943602BAED (for example on aliexpress ~60 Euros) and you will have WIFI, BT, Airdrop... and connect :
 
 | Card Connector | Info |
@@ -28,7 +33,7 @@ Just buy a BCM943602BAED (for example on aliexpress ~60 Euros) and you will have
 
 Personnaly I adapted the chassis to fix a second wifi Antenna (better WIFI Performance, up to 1300Mbps (~950Mbps in real).
 
-# Hardware Info
+## Hardware Info
 | Component | Info |
 | ------------- | ------------- |
 | CPU  | Intel i5 8500T  |
@@ -42,7 +47,7 @@ Personnaly I adapted the chassis to fix a second wifi Antenna (better WIFI Perfo
 | SMBIOS | MacMini 8,1 |
 
 
-# Credit
+## Credit
 - [Hackintoshlifeit](https://github.com/Hackintoshlifeit) Hackintoshlifeit EFI for Dell 3060MFF.
 - [Acidanthera](https://github.com/acidanthera) 
 - [Dortania](https://github.com/dortania)
